@@ -9,11 +9,10 @@
     <link rel="stylesheet" href="/assets/lib/layui/css/layui.css" />
     <!-- 导入第三方图标库 -->
     <link rel="stylesheet" href="/assets/fonts/iconfont.css" />
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/index.css" />
 </head>
 
 <body class="layui-layout-body">
-
     <div class="layui-layout layui-layout-admin">
         <div class="layui-header">
             <div class="layui-logo">
@@ -29,9 +28,9 @@
                         个人中心
                     </a>
                     <dl class="layui-nav-child">
-                        <dd><a href="">基本资料</a></dd>
-                        <dd><a href="">更换头像</a></dd>
-                        <dd><a href="">重置密码</a></dd>
+                        <dd> <a href="/user/user_info.html" target="fm">基本资料</a></dd>
+                        <dd><a href="/user/user_avatar.html" target="fm">更换头像</a></dd>
+                        <dd> <a href="/user/user_pwd.html" target="fm">重置密码</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
@@ -42,7 +41,6 @@
 
         <div class="layui-side layui-bg-black">
             <div class="layui-side-scroll">
-
                 <!-- 左侧侧边栏上面头像 -->
                 <div class="userinfo">
                     <img src="http://t.cn/RCzsdCq" class="layui-nav-img" />
@@ -75,15 +73,17 @@
                         <a href="javascript:;"><span class="iconfont icon-user"></span>个人中心</a>
                         <dl class="layui-nav-child">
                             <dd>
-                                <a href="javascript:;">
-                                    <i class="layui-icon layui-icon-face-smile-fine"></i> 基本资料</a>
+                                <a href="/user/user_info.html" target="fm">
+                                    <i class="layui-icon layui-icon-face-smile-fine"></i>
+                                    基本资料</a>
                             </dd>
                             <dd>
-                                <a href="javascript:;">
-                                    <i class="layui-icon layui-icon-camera-fill"></i> 更换头像</a>
+                                <a href="/user/user_avatar.html" target="fm">
+                                    <i class="layui-icon layui-icon-camera-fill"></i>
+                                    更换头像</a>
                             </dd>
                             <dd>
-                                <a href="javascript:;">
+                                <a href="/user/user_pwd.html" target="fm">
                                     <i class="layui-icon layui-icon-password"></i> 重置密码</a>
                             </dd>
                         </dl>
